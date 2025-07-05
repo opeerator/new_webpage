@@ -1,0 +1,419 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Google analytics tag (gtag.js) -->
+    <!-- <script async src=""></script> -->
+    <!-- <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '');
+    </script> -->
+
+    <!-- Title -->
+    <title>Ali Yamini | Research Associate at Uwaterloo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000">
+
+    <!-- Isotope JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+  </head>
+
+  <body id="body">
+
+    <div id="main">
+      <div id="intro">
+        <div id="intro-text">
+          <p>
+          <h1 style="display: inline;">Ali Yamini</h1> <p style="display: inline; color: gray; font-size: small;">MASc, ECE, University of Waterloo, 2025.</p>
+          <p>
+          <p>
+            Ali is a research associate at the <a href="https://uwaterloo.ca/social-intelligent-robotics-research-lab/profiles/ali-yamini" target="_blank">Social and Intelligent Robotics Research Lab</a>, with over 7 years of experience in software development. He led the creation of <a href="https://uwaterloo.ca/news/robot-friend-vision-treatment#:~:text=An%20interdisciplinary%20team%20of%20University,as%20well%20as%20the%20other.">Mirrly, a humanoid robot for CRI</a>, co-founded two software startups, and has worked on swarm navigation using reinforcement learning, image-processing systems, and full-stack applications across web and mobile platforms.
+          </p>
+
+            <!-- <div id="more-bio" style="display: None">
+              <br>
+              <p>Andy Zeng is a Staff Research Scientist at <a href="https://research.google/teams/robotics/">Google DeepMind</a> , where he leads a small team working on self-improving Foundation models in robotics. He received his Bachelors in Computer Science and Mathematics at <a href="https://www.berkeley.edu/">UC Berkeley</a>, and his PhD in Computer Science at <a href="https://www.princeton.edu/">Princeton</a>. He is interested in building algorithms that enable machines to intelligently interact with the world and improve themselves over time. Andy received Best Paper Awards from HRI '24, CoRL '23, ICRA '23, T-RO '20, RSS'19, and has been finalist for paper awards at RSS '23, CoRL '20 - '22, ICRA '20, RSS '19, IROS '18. He led machine learning as part of Team MIT-Princeton, winning 1st place (stow task) at the worldwide Amazon Picking Challenge '17. Andy is a recipient of the Princeton SEAS Award for Excellence, Japan Foundation Paper Award, NVIDIA Fellowship, and Gordon Y.S. Wu Fellowship in Engineering and Wu Prize. His work has been featured in the press, including the New York Times, BBC, and Wired.</p>
+            </div> -->
+            <br>
+            <!-- <a href="javascript:toggle_bio()">Formal Bio</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <a href="https://www.linkedin.com/in/ali-yamini/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://scholar.google.com/citations?user=baqkEqAAAAAJ&hl=en">G. Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://uwaterloo.ca/social-intelligent-robotics-research-lab/profiles/ali-yamini">UWaterloo</a>
+            <br><br>
+            ali.yamini at uwaterloo dot ca
+            <br><br>
+          </p>
+        </div>
+        <div id="intro-image">
+          <img src="images/profile.jpg">
+        </div>
+      </div>
+
+      <div id="filters" class="button-group">
+        <!-- <button class="button" data-filter="*">Show All</button> -->
+        <!-- <button class="button" data-filter=".highlight">Highlights</button> -->
+        <button class="button is-checked" data-filter=".publication">Research</button>
+        <button class="button" data-filter=".misc">Teaching</button>
+        <button class="button" data-filter=".press">In Press</button>
+        <!-- <button class="button" data-filter=".talk">Talks</button> -->
+      </div>
+
+      <div class="grid">
+
+        <!-- Preview Videos -->
+        <!-- <div class="list-item highlight previews" data-category="highlight">
+
+          <a href="https://palm-e.github.io/"><video class="preview1" playsinline="" muted="" autoplay="" loop=""><source src="images/video-palm-e.mp4" type="video/mp4"></video></a>
+
+          <a href="https://say-can.github.io/"><video class="preview2" playsinline="" muted="" autoplay="" loop=""><source src="images/video-saycan.mp4" type="video/mp4"></video></a>
+
+          <a href="https://tossingbot.cs.princeton.edu/"><video class="preview3" playsinline="" muted="" autoplay="" loop=""><source src="images/video-tossingbot-crop.mp4" type="video/mp4"></video></a>
+        </div> -->
+
+        <!-- Truncated Set of Highlights (Shown by Default) -->
+        <!-- <div id="main-highlights">
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>CoRL</b> <a href="https://robot-help.github.io/">Best Student Paper Award</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>ICRA</b> <a href="https://code-as-policies.github.io/">Outstanding Learning Paper Award</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>Google AI</b> blog post <a href="https://ai.googleblog.com/2022/11/robots-that-write-their-own-code.html">"Robots That Write Their Own Code"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>AXIOS</b> article <a href="https://www.axios.com/2022/11/03/google-artificial-intelligence">"Unleash All This Creativity: Google AI's Breathtaking Potential"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>CNET</b> video <a href="https://www.youtube.com/watch?v=dCPHGwW9SOk">"Google’s Most Advanced Robot Brain Just Got a Body"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+             <b>T-RO</b> Transactions on Robotics <a href="https://www.ieee-ras.org/publications/t-ro">Best Paper Award</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>New York Times</b> article <a href="http://andyzeng.github.io/images/nytimes-business-newspaper-tossingbot.png">"A New Lab Full of Fast Learners"</a>
+          </div>
+
+        </div> -->
+
+
+
+
+        <!-- Publications -->
+        <!-- <div class="list-item publication description" data-category="publication">
+          Selected publications:
+        </div> -->
+
+        <div id="main-highlights">
+
+          <div class="list-item publication" data-category="publication">
+            <a href="" class="thumbnail">
+              <img src="images/experiment_diagram (1).jpg" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="">Analyzing Task Compliance With Interventions From a Novel Robotic Platform</a></h3>
+              <p>
+                Ali Yamini, Kerstin Dautenhahn<br>
+                  <i>In process for submission</i><br>
+              </p>
+            </div>
+          </div>
+
+          <div class="list-item publication" data-category="publication">
+            <a href="https://dl.acm.org/doi/abs/10.1145/3687272.3688310" class="thumbnail">
+              <img src="images/mirrly.jfif" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://dl.acm.org/doi/abs/10.1145/3687272.3688310">Research by Design: Mirrly a Humanoid Robot for Child-Robot Interaction</a></h3>
+              <p>
+                Ali Yamini, Ana Djurkovic, Vanessa Italia Anne Hughes, Cory Smith, Brandon J DeHart, Kerstin Dautenhahn<br>
+                  <i>Proceedings of the 12th International Conference on Human-Agent Interaction 2024</i><br>
+                  <a href="https://dl.acm.org/doi/abs/10.1145/3687272.3688310">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              </p>
+            </div>
+          </div>
+
+          <div class="list-item publication" data-category="publication">
+            <a href="https://link.springer.com/chapter/10.1007/978-981-96-3522-1_6" class="thumbnail"><img src="images/kds.jpg" alt="" /></a>
+            <div class="project-description">
+              <h3><a href="https://link.springer.com/chapter/10.1007/978-981-96-3522-1_6">What Makes an Educational Robot Game Fun? Framework Analysis of Children’s Design Ideas</a></h3>
+              <p>
+                Elaheh Sanoubari, John Edison Muñoz, Ali Yamini, Neil Randall, Kerstin Dautenhahn<br>
+                  <i>International Conference on Social Robotics 2024</i><br>
+                  <font color="49bf9"><i>&#9733; Best Presentation Award at ICSR 2024 &#9733;</i></font><br>
+                  <a href="https://link.springer.com/chapter/10.1007/978-981-96-3522-1_6">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              </p>
+            </div>
+          </div>
+
+          <div class="list-item publication" data-category="publication">
+            <a href="" class="thumbnail"><img src="images/g1.gif" alt="" /></a>
+            <div class="project-description">
+              <h3>Autonomous Navigation System Using Reinforcement Learning For Swarm Of Drones</h3>
+              <p>
+                Ali Yamini, Mohammad Divband<br>
+                  <i>University of Southampton</i><br>
+              </p>
+            </div>
+          </div>
+
+          <div class="list-item publication" data-category="publication">
+            <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003145189-4/fog-computing-iot-based-healthcare-systems-azadeh-zamanifar-ali-yamini" class="thumbnail"><img src="images/fog.jpg" alt="" /></a>
+            <div class="project-description">
+              <h3><a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003145189-4/fog-computing-iot-based-healthcare-systems-azadeh-zamanifar-ali-yamini">Fog Computing in IoT-Based Healthcare Systems</a></h3>
+              <p>
+                Azadeh Zamanifar, Ali Yamini<br>
+                <i>Cloud Computing in Medical Imaging 2023<br>
+                <i>Auerbach Publications</i><br>
+                <!-- <font color="49bf9"><i>&#9733; 1st Place (Stow Task), Amazon Robotics Challenge 2017 &#9733;</i></font><br> -->
+                  <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003145189-4/fog-computing-iot-based-healthcare-systems-azadeh-zamanifar-ali-yamini">Webpage</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="list-item publication" data-category="publication">
+            <a href="https://doi.org/10.1007/978-3-031-09729-4_2" class="thumbnail"><img src="images/iotforsmart.jpg" alt="" /></a>
+            <div class="project-description">
+              <h3><a href="https://doi.org/10.1007/978-3-031-09729-4_2">IoT for Smart Environment Applications</a></h3>
+              <p>
+                Azadeh Zamanifar, Ali Yamini<br>
+                <i>Internet of Things for Smart Environments 2022<br>
+                <i>Springer International Publishing</i><br>
+                <!-- <font color="49bf9"><i>&#9733; 1st Place (Stow Task), Amazon Robotics Challenge 2017 &#9733;</i></font><br> -->
+                  <a href="https://doi.org/10.1007/978-3-031-09729-4_2">Webpage</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="list-item publication" data-category="publication">
+            <a href="https://link.springer.com/article/10.1007/s00500-020-05003-6" class="thumbnail"><img src="images/iotsmart.jpg" alt="" /></a>
+            <div class="project-description">
+              <h3><a href="https://link.springer.com/article/10.1007/s00500-020-05003-6">A new machine learning-based healthcare monitoring model for student’s condition diagnosis in Internet of Things environment</a></h3>
+              <p>
+                Alireza Souri, Marwan Yassin Ghafour, Aram Mahmood Ahmed, Fatemeh Safara, Ali Yamini, Mahdi Hoseyninezhad<br>
+                <i>Soft Computing 2020<br>
+                <i>Springer Berlin Heidelberg</i><br>
+                <!-- <font color="49bf9"><i>&#9733; 1st Place (Stow Task), Amazon Robotics Challenge 2017 &#9733;</i></font><br> -->
+                  <a href="https://link.springer.com/article/10.1007/s00500-020-05003-6">Webpage</a>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- All Publications (Click to Show) 
+        <div id="more-highlights" style="display: None">
+
+          <div class="list-item publication" data-category="publication">
+            <a href="https://robot-teaching.github.io/" class="thumbnail">
+              <video playsinline="" muted="" autoplay="" loop="" width="180px">
+                <source src="images/daynight.mp4" type="video/mp4">
+              </video>
+            </a>
+            <div class="project-description">
+              <h3><a href="https://robot-teaching.github.io/">Learning to Learn Faster from Human Feedback with Language Model Predictive Control</a></h3>
+              <p>
+                Jacky Liang, Fei Xia, Wenhao Yu, Andy Zeng, Montserrat Gonzalez Arenas, Maria Attarian, Maria Bauza, Matthew Bennice, Alex Bewley, Adil Dostmohamed, Chuyuan Kelly Fu, Nimrod Gileadi, Marissa Giustina, Keerthana Gopalakrishnan, Leonard Hasenclever, Jan Humplik, Jasmine Hsu, Nikhil Joshi, Ben Jyenis, Chase Kew, Sean Kirmani, Tsang-Wei Edward Lee, Kuang-Huei Lee, Assaf Hurwitz Michaely, Joss Moore, Ken Oslund, Dushyant Rao, Allen Ren, Baruch Tabanpour, Quan Vuong, Ayzaan Wahid, Ted Xiao, Ying Xu, Vincent Zhuang, Peng Xu, Erik Frey, Ken Caluwaerts, Tingnan Zhang, Brian Ichter, Jonathan Tompson, Leila Takayama, Vincent Vanhoucke, Izhak Shafran, Maja Mataric, Dorsa Sadigh, Nicolas Heess, Kanishka Rao, Nik Stewart, Jie Tan, Carolina Parada<br>
+                  <i>Robotics: Science and Systems (RSS) 2024</i><br>
+                  <a href="https://robot-teaching.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                  <a href="https://arxiv.org/abs/2402.11450">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                  <a href="https://colab.research.google.com/drive/1YcRN_kklw3cVVJNvgK_IEV6nDce9EJWK?usp=sharing">Code</a>
+                  <br> 
+              </p>
+            </div>
+          </div>
+
+        </div>
+      -->
+
+        <!-- Toggle highlights button. -->
+        <!-- <div class="list-item publication toggle-button" data-category="publication">
+          <a id="toggle_highlights_button" href="javascript:toggle_highlights()">Show more publications</a>
+        </div> -->
+
+
+
+        <!-- Talks -->
+        <!-- <div class="list-item talk description" data-category="talk">
+          Some of my slides can be found <a href="https://slides.com/andyzeng">here</a>
+        </div> -->
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2024</p>UIUC <a href="https://publish.illinois.edu/csl-student-conference-2024">CSL Student Conference</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2023</p>EMNLP Workshop on <a href="https://splu-robonlp-2023.github.io/">RoboNLP</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Cornell <a href="https://www.cs.cornell.edu/content/fall-2023-robotics-seminar">Robotics Seminar</a>
+        </div>
+
+
+
+        <div class="list-item press" data-category="press">
+          <p class="date">2024</p>Design Engineering | <a href="https://www.design-engineering.com/researchers-develop-a-social-robot-to-aid-lazy-eye-treatment-2-1004043192/">Researchers develop a social robot to aid ‘lazy eye’ treatment</a>
+        </div>
+
+        <div class="list-item press" data-category="press">
+          <p class="date"></p>Education News Canada | <a href="https://educationnewscanada.com/article/education/level/university/1/1091224/a-robot-friend-for-vision-treatment.html">A robot friend for vision treatment</a>
+        </div>
+
+        <div class="list-item press" data-category="press">
+          <p class="date"></p>Optometry Today | <a href="https://www.aop.org.uk/ot/news/2024/07/10/a-social-robot-to-motivate-young-patients-with-amblyopia">A social robot to motivate young patients with amblyopia</a>
+        </div>
+
+        <div class="list-item press" data-category="press">
+          <p class="date"></p>Eye On Optics | <a href="https://eyeonoptics.co.nz/live-articles/robot-help-with-treatment-adherence/">Robot help with treatment adherence</a>
+        </div>
+        <div class="list-item press" data-category="press">
+          <p class="date"></p>University of Waterloo News Story | <a href="https://uwaterloo.ca/news/robot-friend-vision-treatment#:~:text=An%20interdisciplinary%20team%20of%20University,as%20well%20as%20the%20other.">A social robot could help children and families stick to a treatment for 'lazy eye'</a>
+        </div>
+        <div class="list-item press" data-category="press">
+          <p class="date"></p><a href="https://uwaterloo.ca/waterloo-eye-institute/news/robot-friend-vision-treatment">Waterloo Eye Institute</a>
+        </div>
+        <div class="list-item press" data-category="press">
+          <p class="date"></p><a href=https://eyesmart.com.au/newsarticle/7040-robot-friend-to-aid-children-with-%27lazy-eye%27-treatment">EyeSmart</a>
+        </div>
+        <div class="list-item press" data-category="press">
+          <p class="date"></p><a href="https://uwaterloo.ca/robohub/news/researchers-develop-social-robot-aid-lazy-eye-treatment">University of Waterloo RoboHub</a>
+        </div>
+        <div class="list-item press" data-category="press">
+          <p class="date"></p><a href="https://www.miragenews.com/robot-friend-for-vision-treatment-1263895/#google_vignette">Mirage News</a>
+        </div>
+
+        <!-- Teaching -->
+        <div class="list-item misc" data-category="misc">
+          University of Waterloo (2023 - 2025)
+        </div>
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2023</p>ECE 108 - Discrete Mathematics and Logic (Winter Term)
+        </div>
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>ECE 198 - Project Studio (Fall Term)
+        </div>
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2024</p>ECE 108 - Discrete Mathematics and Logic (Winter Term)
+        </div>
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>ECE 108 - Discrete Mathematics and Logic (Summer Term)
+        </div>
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>ECE 208 - Discrete Mathematics and Logic II (Fall Term)
+        </div>
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2025</p>ECE 108 - Discrete Mathematics and Logic II (Winter Term)
+        </div>
+      </div>
+
+      <div id="footer">July 2025 | Inspired by <a href="https://andyzeng.github.io/">Andy's website</a>.</div>
+
+    </div>
+
+    <script>
+
+      // Isotope grid.
+      var $grid = $('.grid').isotope({
+        itemSelector: '.list-item',
+        layoutMode: 'fitRows',
+        transitionDuration: 0,
+        stagger: 10,
+        initLayout: false,
+        getSortData: {
+          name: '.name',
+          symbol: '.symbol',
+          number: '.number parseInt',
+          category: '[data-category]',
+          weight: function( itemElem ) {
+            var weight = $( itemElem ).find('.weight').text();
+            return parseFloat( weight.replace( /[\(\)]/g, '') );
+          }
+        }
+      });
+
+      // Bind filter button click.
+      $('#filters').on( 'click', 'button', function() {
+        var filterValue = $( this ).attr('data-filter');
+        localStorage.setItem('filterValue', filterValue);
+        $grid.isotope({ filter: filterValue });
+      });
+
+      // Change is-checked class on buttons.
+      $('.button-group').each( function( i, buttonGroup ) {
+        var $buttonGroup = $( buttonGroup );
+        $buttonGroup.on( 'click', 'button', function() {
+          $buttonGroup.find('.is-checked').removeClass('is-checked');
+          $( this ).addClass('is-checked');
+        });
+      });
+
+      function update_isotope() {
+        // Retrieve cached button click.
+        var defaultFilterValue = localStorage.getItem('filterValue');
+        if (defaultFilterValue == null || defaultFilterValue === ".highlight") {
+          defaultFilterValue = ".publication"
+        }
+        $grid.isotope({ filter: defaultFilterValue });
+        var buttons = document.getElementsByClassName("button");
+        for (var currButton of buttons) {
+          if (currButton.getAttribute('data-filter') == defaultFilterValue) {
+            currButton.classList.add('is-checked');
+          } else {
+            currButton.classList.remove('is-checked');
+          }
+        }
+      }
+
+      function toggle_bio() {
+        var x = document.getElementById("more-bio");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function toggle_highlights() {
+        var x = document.getElementById("main-highlights");
+        var y = document.getElementById("more-highlights");
+        var b = document.getElementById("toggle_highlights_button")
+        if (y.style.display === "none") {
+          x.style.display = "none";
+          y.style.display = "block";
+          b.innerHTML = "Show less publications"
+          update_isotope();
+        } else {
+          x.style.display = "block";
+          y.style.display = "none";
+          b.innerHTML = "Show more publications"
+          update_isotope();
+        }
+      }
+
+      update_isotope();
+
+    </script>
+  </body>
+</html>
